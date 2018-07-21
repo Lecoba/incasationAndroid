@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">incasation</string>
+    <string name="user">Օգտատեր</string>
+    <string name="amount">Գումար</string>
+    <string name="currency">Տարադրամ</string>
+    <string name="destinationbank">Կազմակերպություն</string>
+    <string name="destinationbankbranch">Մասնաճյուղ</string>
+    <string name="transactionDate">Ամսաթիվ</string>
+    <string name="sendData">Հաստատել</string>
+    <string name="sendDataApprovalQuestion">Ցանկանում եք հաստատել գործարքը?</string>
+    <string name="sendDataApproval">Հաստատել Գործարքը</string>
+    <string name="successResponse">Ձեր գործարքը հաջողությամբ կատարված Է</string>
+    <string name="successResponseLoadResources">Կազմակերպությունների տվյալները հաջողությամբ ներբեռնված են</string>
+    <string name="failResponse">Սերվերը անհասանելի է, խնդրում ենք ստուգել ինտերնետ կապը կամ հայտնել տեխ. սպասարկման բաժին</string>
+    <string name="emptyValue">-</string>
+    <string name="mandatory">Դաշտը պարտադիր է լրացման համար</string>
+    <string name="dropdownValid">Դաշտը ընտրել ներկայացված ցուցակից</string>
+    <string name="apiPostTransactionURL">http://10.0.2.2:8080/apiTransaction/save</string>
+    <string name="apiGetTransactionListURL">http://10.0.2.2:8080/apiTransaction/list</string>
+    <string name="apiPostAuthURL">http://10.0.2.2:8080/apiTransaction/auth</string>
+    <string name="apiGetResURL">http://10.0.2.2:8080/apiBank/list</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Մուտքանուն</string>
+    <string name="prompt_password">Գաղտնաբառ</string>
+    <string name="action_sign_in">Մուտք</string>
+    <string name="action_sign_in_short">Մուտք</string>
+    <string name="error_invalid_login">Մուտքանունը սխալ է</string>
+    <string name="error_invalid_password">Գաղտնաբառը սխալ է</string>
+    <string name="error_incorrect_password">Գաղտնաբառը սխալ է</string>
+    <string name="error_field_required">Դաշտը պարտադիր է լրացման համար</string>
+</resources>

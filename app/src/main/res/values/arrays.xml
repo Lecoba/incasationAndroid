@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bankArray">
+        <item>Ameria</item>
+        <item>Converse</item>
+        <item>Evoca</item>
+        <item>Ineco</item>
+        <item>Ardshin</item>
+        <item>HSBC</item>
+    </array>
+    <array name="bankBranchArray">
+        <item>AmeriaBranch</item>
+        <item>ConverseBranch</item>
+        <item>EvocaBranch</item>
+        <item>InecoBranch</item>
+        <item>ArdshinBranch</item>
+        <item>HSBCbranch</item>
+    </array>
+    <array name="currencyArray">
+        <item>AMD</item>
+        <item>RUB</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </array>
+</resources>

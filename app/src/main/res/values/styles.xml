@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <!--<item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>-->
+        <!--<item name="actionButtonStyle">@style/MyActionButtonStyle</item>-->
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="android:height">100dp</item>
+        <item name="height">100dp</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyActionButtonStyle" parent="Widget.AppCompat.Light.ActionButton">
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">40dp</item>
+        <item name="android:width">40dp</item>
+    </style>
+
+    <style name="EditTextStyleGreen" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlActivated">#255404</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="android:background">@drawable/textfield_pressed</item>
+    </style>
+
+</resources>

@@ -1,0 +1,160 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAppBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAppBackground"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/user"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/inputTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/amount"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/inputTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/currency"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:inputType="textAutoComplete"
+                android:maxLength="3"
+                android:textSize="@dimen/inputTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/destinationbank"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/destinationBank"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:inputType="textAutoComplete"
+                android:textSize="@dimen/inputTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/destinationbankbranch"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/destinationBankBranch"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/edit_text"
+                android:ems="10"
+                android:inputType="textAutoComplete"
+                android:textSize="@dimen/inputTextSize"
+                android:focusable="false"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sendData"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@drawable/button_background"
+            android:onClick="sendData"
+            android:text="@string/sendData"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/buttonSize"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:indeterminateOnly="true"
+            android:visibility="invisible"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal" />
+    </LinearLayout>
+</ScrollView>

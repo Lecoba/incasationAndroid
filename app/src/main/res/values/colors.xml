@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#109264</color>-->
+    <color name="colorPrimary">#33b486</color>
+    <color name="colorPrimaryTransparent">#da10a772</color>
+    <color name="colorPrimaryDark">#0a7751</color>
+    <color name="colorAccent">#10a772</color>
+
+    <color name="colorAppBackground">#ffffff</color>
+    <color name="tableBackground">#fcee9e</color>
+</resources>
