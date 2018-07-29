@@ -15,10 +15,10 @@
     <string name="emptyValue">-</string>
     <string name="mandatory">Դաշտը պարտադիր է լրացման համար</string>
     <string name="dropdownValid">Դաշտը ընտրել ներկայացված ցուցակից</string>
-    <string name="apiPostTransactionURL">http://10.0.2.2:8080/apiTransaction/save</string>
-    <string name="apiGetTransactionListURL">http://10.0.2.2:8080/apiTransaction/list</string>
-    <string name="apiPostAuthURL">http://10.0.2.2:8080/apiTransaction/auth</string>
-    <string name="apiGetResURL">http://10.0.2.2:8080/apiBank/list</string>
+    <string name="apiPostTransactionURL">http://109.75.40.154:8080/apiTransaction/save</string>
+    <string name="apiGetTransactionListURL">http://109.75.40.154:8080/apiTransaction/list</string>
+    <string name="apiPostAuthURL">http://109.75.40.154:8080/apiTransaction/auth</string>
+    <string name="apiGetResURL">http://109.75.40.154:8080/apiBank/list</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->

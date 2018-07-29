@@ -10,11 +10,13 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.example.user.incasation.domain.Bank;
 import com.example.user.incasation.domain.BankBranch;
@@ -230,6 +232,7 @@ public class MainActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 if (!charSequence.toString().isEmpty()) {
                     destinationBankBranch.setFocusable(true);
+
                 } else {
                     destinationBankBranch.setFocusable(false);
                 }
@@ -244,6 +247,25 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        destinationBankBranch.setOnClickListener(new View.OnClickListener() {
+
+                                                     @Override
+                                                     public void onClick(View view) {
+                                                         if (!destinationBank.getText().toString().isEmpty()) {
+                                                             destinationBankBranch.setFocusable(true);
+                                                             destinationBankBranch.setFocusableInTouchMode(true);
+
+
+                                                         } else {
+                                                             destinationBankBranch.setFocusable(false);
+                                                         }
+                                                     }
+                                                 }
+
+        );
+
     }
+
+
 
 }
